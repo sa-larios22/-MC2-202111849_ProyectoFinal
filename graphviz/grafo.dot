@@ -1,0 +1,14 @@
+digraph {
+  A [label="A"]
+  B [label="B"]
+  C [label="C"]
+  D [label="D"]
+  R [label="R"]
+  A -> D
+  A -> C
+  B -> A
+  D -> R
+  R -> B
+  A -> D [color=red, penwidth=2.0]
+  D -> R [color=red, penwidth=2.0]
+}
